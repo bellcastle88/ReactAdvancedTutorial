@@ -8,7 +8,7 @@ const UseEffectCleanup = () => {
   
   const checkSize = () => {
     setSize(window.innerWidth);
-  }
+  } 
   
   useEffect(() => {
     window.addEventListener('resize', checkSize);
