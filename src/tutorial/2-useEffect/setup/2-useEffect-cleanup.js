@@ -8,12 +8,12 @@ const UseEffectCleanup = () => {
   
   const checkSize = () => {
     setSize(window.innerWidth);
-  } 
+  }  
   
   useEffect(() => {
     window.addEventListener('resize', checkSize);
   })
-
+ 
   return (
     <>
       <h1>window</h1>
